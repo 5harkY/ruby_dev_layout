@@ -1,0 +1,10 @@
+# docker-compose.yml
+version: '2'
+
+services:
+  web:
+    build: .
+    volumes:
+      - .:/code
+    ports:
+      - 80:4567

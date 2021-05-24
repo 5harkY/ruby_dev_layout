@@ -11,3 +11,7 @@ Simple ruby app, wich includes
 ## Run with docker-compose
 1. Install with `docker-compose build`
 2. Run with `docker-compose up`
+
+## Structure
+`views` - contains html files
+`public/stylesheets` - contains css and scss/sass
